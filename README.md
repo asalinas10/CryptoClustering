@@ -66,3 +66,27 @@ In this challenge, you’ll use your knowledge of Python and unsupervised learni
 
 ![Alt text](<Screen Shot 2024-01-04 at 10.49.38 PM.png>)
 
+5. Find the Best Value for k Using the PCA Data
+
+    - Use the elbow method on the PCA data to find the best value for k using the following steps:
+
+        - Create a list with the number of k-values from 1 to 11.
+
+        - Create an empty list to store the inertia values.
+
+        - Create a for loop to compute the inertia with each possible value of k.
+
+        - Create a dictionary with the data to plot the Elbow curve.
+
+        - Plot a line chart with all the inertia values computed with the different values of k to visually identify the optimal value for k.
+
+        - Answer the following question in your notebook:
+
+            - What is the best value for k when using the PCA data?
+
+            - Does it differ from the best k value found using the original data?
+
+![Alt text](<Screen Shot 2024-01-04 at 10.53.14 PM.png>)
+
+6. 
+
